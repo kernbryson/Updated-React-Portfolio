@@ -62,6 +62,7 @@ let resumeData = {
     {
       skillname: "Reactjs",
     },
+    
   ],
   portfolio: [
     {
