@@ -21,9 +21,9 @@ export default class ContactUs extends Component {
             <aside className="eigth columns footer-widgets">
               <div className="widget">
 
-              <div class="row" style={styles.contact}>
-          <div class="col-md-9 mb-md-0 mb-5">
-            <form className='row'style={styles.contact}
+              <div class="row contactmedia" style={styles.contact}>
+          <div class="col-md-9 mb-md-0 mb-5 ">
+            <form className='row contactmedia'style={styles.contact}
               id="contact-form"
               name="contact-form"
               action="https://formsubmit.co/1710c7e7c3d3c27a730533f295e38925 "
@@ -42,7 +42,7 @@ export default class ContactUs extends Component {
                   </div>
                 </div>
 
-                <div class="col-md-6">
+                <div class="col-md-6 ">
                   <div class="md-form mb-0">
                     <input
                       type="text"

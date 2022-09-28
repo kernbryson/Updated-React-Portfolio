@@ -30,14 +30,14 @@ export default class Porfolio extends Component {
       <div className="row" style={styles.row} >
         <div className="twelve columns collapsed" >
          
-          <div id="portfolio-wrapper" className="cf" style={styles.test}>
+          <div id="portfolio-wrapper" className="cf portmedia" style={styles.test}>
           {
             resumeData.portfolio && resumeData.portfolio.map((item)=>{
               return(
                 <div className="columns portfolio-item" >
                   <div className="item-wrap" >
                     <a href={item.link}  target="_blank" >
-                      <img style={styles.img} src={item.imgurl} className="item-img="  />
+                      <img style={styles.img} src={item.imgurl} className="item-img= imagemedia"  />
                       <div className="overlay">
                         <div className="portfolio-item-meta" >
                           <h5>{item.name}</h5>

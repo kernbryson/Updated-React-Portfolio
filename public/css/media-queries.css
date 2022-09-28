@@ -18,6 +18,10 @@
       letter-spacing: -1px;
       margin: 0 auto 12px auto;
    }
+   .contactmedia{
+      flex-direction: column !important;
+      margin: 2px !important;
+   }
 
 }
 
@@ -99,6 +103,18 @@
 
    /* mobile navigation
    -------------------------------------------------------------------- */
+   .portmedia{
+      flex-direction: column !important;
+   }
+   .imagemedia{
+      width: 90vw !important;
+      height: 35vw !important;
+   }
+   .row{
+      margin-left: 0% !important;
+      margin-left: 0% !important;
+   }
+
    #nav-wrap {
       font: 12px 'opensans-bold', sans-serif;
       background: transparent !important;

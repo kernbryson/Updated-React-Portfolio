@@ -118,7 +118,7 @@ let resumeData = {
       contact:"404-569-9744"
     },
     {
-      description: "Owner of Sterling Renovations",
+      description: "Owner of Sterling View Renovations",
       name: "Oscar Gonzalez",
       contact:"770-633-0639"
     },
