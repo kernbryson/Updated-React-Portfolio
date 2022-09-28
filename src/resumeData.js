@@ -98,12 +98,29 @@ let resumeData = {
   ],
   testimonials: [
     {
-      description: "This is a sample testimonial",
-      name: "Some technical guy",
+      description: "Service Now Developer",
+      name: "Bryan Crowder",
+      contact:"541-310-7024"
     },
     {
-      description: "This is a sample testimonial",
-      name: "Some technical guy",
+      description: "Director and Camera Operator",
+      name: "Lael Camak",
+      contact:"404-483-0876"
+    },
+    {
+      description: "Sherwin Williams Assistant Manager",
+      name: "Tommy Fishel",
+      contact:"470-422-6937"
+    },
+    {
+      description: "Sherwin Williams Sales Representative",
+      name: "Brian Partee",
+      contact:"404-569-9744"
+    },
+    {
+      description: "Owner of Sterling Renovations",
+      name: "Oscar Gonzalez",
+      contact:"770-633-0639"
     },
   ],
 };
