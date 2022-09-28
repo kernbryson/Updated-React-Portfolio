@@ -1,4 +1,9 @@
 import React, { Component } from 'react';
+const styles={
+   text:{
+      fontSize:"20px"
+   }
+}
 export default class About extends Component {
   render() {
     let resumeData = this.props.resumeData;
@@ -15,7 +20,7 @@ export default class About extends Component {
             <div className="nine columns main-col">
 
                <h2>About Me</h2>
-               <p>
+               <p style={styles.text}>
                {
                  resumeData.aboutme
                }
@@ -27,13 +32,13 @@ export default class About extends Component {
 
                   <h2>Contact Details</h2>
                   <p className="address">
-       						<span>{resumeData.name}</span>
+       						<span style={styles.text}>{resumeData.name}</span>
                      <br></br>
-       						   <span>
+       						   <span style={styles.text}>
                      {resumeData.address}
                     </span>
                     <br></br>
-                    <span>{resumeData.website}</span>
+                    <span style={styles.text}>{resumeData.website}</span>
        					   </p>
                   </div>
                </div>

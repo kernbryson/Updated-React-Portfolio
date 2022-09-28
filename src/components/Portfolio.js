@@ -14,6 +14,9 @@ const styles = {
     marginLeft:"5%",
     marginRight:"5%",
     textAlign:"center"
+  },
+  overflow:{
+    overflow:"hidden"
   }
 };
 export default class Porfolio extends Component {
@@ -22,7 +25,7 @@ export default class Porfolio extends Component {
     let resumeData = this.props.resumeData;
     
     return (
-      <section id="portfolio" >
+      <section id="portfolio" style={styles.overflow}>
          <h1>My Portfolio</h1>
       <div className="row" style={styles.row} >
         <div className="twelve columns collapsed" >

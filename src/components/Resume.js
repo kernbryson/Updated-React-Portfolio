@@ -1,4 +1,10 @@
 import React, { Component } from 'react';
+
+const styles={
+  center:{
+    textAlign:"center"
+  }
+}
 export default  class Resume extends Component {
   render() {
     let resumeData = this.props.resumeData;
@@ -93,7 +99,10 @@ export default  class Resume extends Component {
    			</div>
 
          </div>
-
+         <ul style={styles.center}>
+         <li> <span>For more information about my skills and resume click here</span></li>
+          <li><a href="https://drive.google.com/file/d/1Gdj4MWPTh9LUaGmn2afU8HHacztnayyh/view?usp=sharing">Resume</a></li>
+          </ul>
       </section>
     );
   }

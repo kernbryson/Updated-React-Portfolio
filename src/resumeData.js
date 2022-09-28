@@ -51,16 +51,22 @@ let resumeData = {
         "Took on leadership roles by guiding my team at work and directing team outings. Cross-trained with other store departments and areas, supporting overall retail operations. Maintained CRM database, entering new and updated prospect and customer information for use by sales personnel.	Arranged in-person meetings and visited with clients to improve success of sales pitches. ",
     },
   ],
-  skillsDescription: "Your skills here",
+  skillsDescription: "",
   skills: [
     {
-      skillname: "HTML5",
+      skillname: "HTML",
     },
     {
       skillname: "CSS",
     },
     {
-      skillname: "Reactjs",
+      skillname: "JavaScript",
+    },
+    {
+      skillname: "React",
+    },
+    {
+      skillname: "MySQL",
     },
     
   ],
