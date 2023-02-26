@@ -68,7 +68,6 @@ let resumeData = {
     {
       skillname: "MySQL",
     },
-    
   ],
   portfolio: [
     {
@@ -90,37 +89,37 @@ let resumeData = {
       link: "https://kernbryson.github.io/HW6WeatherDashboard/",
     },
     {
-      name: "Tech Blog",
-      description: "Create a blog post and share it with your friends",
-      imgurl: "https://i.imgur.com/Tf5wct6.png",
-      link: "https://powerful-escarpment-98424.herokuapp.com/",
+      name: "First Team Property Solutions",
+      description: "Foreclosure help and assistance",
+      imgurl: "https://i.imgur.com/vHPlrZu.png",
+      link: "https://kernbryson.github.io/firstteampropertysolutions/",
     },
   ],
   testimonials: [
     {
       description: "Service Now Developer",
       name: "Bryan Crowder",
-      contact:"541-310-7024"
+      contact: "541-310-7024",
     },
     {
       description: "Director and Camera Operator",
       name: "Lael Camak",
-      contact:"404-483-0876"
+      contact: "404-483-0876",
     },
     {
       description: "Sherwin Williams Assistant Manager",
       name: "Tommy Fishel",
-      contact:"470-422-6937"
+      contact: "470-422-6937",
     },
     {
       description: "Sherwin Williams Sales Representative",
       name: "Brian Partee",
-      contact:"404-569-9744"
+      contact: "404-569-9744",
     },
     {
       description: "Owner of Sterling View Renovations",
       name: "Oscar Gonzalez",
-      contact:"770-633-0639"
+      contact: "770-633-0639",
     },
   ],
 };
