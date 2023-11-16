@@ -3,7 +3,6 @@ let resumeData = {
   name: "Bryson Kern",
   role: "Full Stack Web Developer ",
   linkedinId: "Your LinkedIn Id",
-  skypeid: "Your skypeid",
   roleDescription: "",
   socialLinks: [
     {
@@ -17,8 +16,12 @@ let resumeData = {
       className: "fa fa-github",
     },
   ],
-  aboutme:
-    "I'm a full stack web developer that is located in Loganville Georgia. I am proficient in building web applications. Problem solver and creative mindset with a meticulous attention to detail. Movie fanatic, outdoorsman, and family oriented. I am interested in working on both front end or back end; both are unique and interesting in their own way.",
+  aboutme: `Greetings! I'm a dynamic full-stack web developer based in the charming town of Loganville, Georgia. With a passion for crafting seamless web applications, I bring a blend of technical expertise and a creative problem-solving mindset to every project. My forte lies in both the front end and back end development, where I thrive on the unique challenges each aspect presents. Whether it's designing an intuitive user interface or optimizing server-side functionality, I tackle each task with meticulous attention to detail.
+
+  Beyond the world of coding, I am a dedicated family person, a movie fanatic, and an avid outdoorsman. These diverse interests not only enrich my life but also contribute to my well-rounded approach to problem-solving and creativity.
+  
+  I am enthusiastic about the endless possibilities in web development and always on the lookout for exciting opportunities to contribute my skills and passion to innovative projects. Let's connect and explore the boundless potential of the digital landscape together!`,
+
   address: "Loganville, Ga",
   website: "kernbryson@yahoo.com",
   education: [
@@ -43,8 +46,18 @@ let resumeData = {
   ],
   work: [
     {
+      CompanyName: "Sherwin Williams",
+      specialization: "Sales Associate",
+      MonthOfLeaving: "Present",
+      location: "Loganville",
+      YearOfLeaving: "",
+      Achievements:
+        "Maintained calm demeanor and professionally managed issues in busy, high-stress situations. Provided positive first impressions to welcome existing, new, and potential customers. Assessed customer needs and utilized suggestive selling techniques to drive sales. Answered customer questions about products and services, helped locate merchandise, and promoted key items. ",
+    },
+    {
       CompanyName: "Sherwin Williams Commercial",
       specialization: "Sales Associate",
+      location: "Alpharetta",
       MonthOfLeaving: "Jan",
       YearOfLeaving: "2022",
       Achievements:
@@ -67,6 +80,15 @@ let resumeData = {
     },
     {
       skillname: "MySQL",
+    },
+    {
+      skillname: "Angular",
+    },
+    {
+      skillname: "Firebase",
+    },
+    {
+      skillname: "Dart",
     },
   ],
   portfolio: [
